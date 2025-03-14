@@ -1,23 +1,18 @@
 import { Route, Routes } from "react-router-dom";
-import ProductList from "./pages/products/list";
-import ProductAdd from "./pages/products/add";
-import ProductEdit from "./pages/products/edit";
-import Counter from "./components/Counter";
+import LayoutClient from "./components/LayoutClient";
+import CartPage from "./pages/client/cart";
 
 function App() {
     return (
-        <>
-            <Counter />
-            <Routes>
-                <Route path="products">
-                    <Route index element={<ProductList />} />
-                    <Route path="add" element={<ProductAdd />} />
-                    <Route path="edit/:id" element={<ProductEdit />} />
-                </Route>
-            </Routes>
-        </>
-        // helo helo quân test git nhé
-    );
+        <Routes>
+            {/* Layout dành cho client */}
+            <Route path="/" element={<LayoutClient />}>
+                <Route index element={<h1>Trang Chủ</h1>} />
+                <Route path="shop" element={<CartPage />} />
+                <Route path="about" element={<h1>Giới thiệu</h1>} />
+            </Route>
+        </Routes>
+    )
 }
 
-export default App;
+export default App
