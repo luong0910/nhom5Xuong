@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import LayoutClient from "./components/LayoutClient";
-import CartPage from "./pages/client/cart";
+import CartPage from "./pages/client/client/cart";
 
 function App() {
     return (
