@@ -22,3 +22,31 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Bỏ qua các file hệ thống và thư mục không liên quan
+.DS_Store
+Thumbs.db
+node_modules/
+.vscode/
+*.log
+*.zip
+*.rar
+*.exe
+*.lnk
+*.ini
+*.workspace
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+PhotoshopPortable/
+VirtualBox VMs/
+Saved Games/
+Searches/
+Videos/
+
