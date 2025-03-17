@@ -14,7 +14,7 @@ function HeaderClient() {
         
                 <ul className="flex space-x-6 text-lg">
                     <Link to={'/'}><li className="hover:text-gray-600 cursor-pointer">Home</li></Link>
-                    <Link to={'#'}><li className="hover:text-gray-600 cursor-pointer">Shop</li></Link>
+                    <Link to={'products'}><li className="hover:text-gray-600 cursor-pointer">Shop</li></Link>
                     <Link to={'#'}><li className="hover:text-gray-600 cursor-pointer">About</li></Link>
                     <Link to={'#'}><li className="hover:text-gray-600 cursor-pointer">Contact</li></Link>
                 </ul>
