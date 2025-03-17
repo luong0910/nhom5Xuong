@@ -8,7 +8,7 @@ function ContactMethod() {
     ];
 
     return (
-        <div className="py-16 mt-8 text-xl" style={{ backgroundColor: '#FAF3EA' }}>
+        <div className="py-12 mt-8 text-2xl" style={{ backgroundColor: '#FAF3EA' }}>
             <div className="container mx-auto text-center">
                 <div className="grid grid-cols-2 gap-8 md:grid-cols-4 justify-items-center">
                     {features.map((feature, index) => (
