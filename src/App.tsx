@@ -5,6 +5,7 @@ import HomeClient from "./pages/clients/homeClient";
 import BlogPage from "./pages/clients/blog";
 import CheckoutPage from "./pages/clients/checkout";
 import ContactPage from "./pages/clients/contact";
+import SingleProductPage from "./pages/clients/singleProduct";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <Route path="blog" element={<BlogPage />} />
                 <Route path="checkout" element={<CheckoutPage />} />
                 <Route path="contact" element={<ContactPage />} />
+                <Route path="detail" element={<SingleProductPage />} />
                 <Route path="about" element={<h1>Giới thiệu</h1>} />
             </Route>
         </Routes>
