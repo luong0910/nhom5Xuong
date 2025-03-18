@@ -1,4 +1,9 @@
+
 import { Eye, Heart } from 'lucide-react';
+
+import { FaEye, FaHeart } from "react-icons/fa";
+
+
 function HomeClient() {
   return (
     <div className="min-h-screen bg-neutral-50">
@@ -78,10 +83,10 @@ function HomeClient() {
                   </button>
                   <div className="flex gap-4">
                     <button className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors" title="View Details">
-                      <Eye className="w-5 h-5 text-neutral-800" />
+                      <FaEye className="w-5 h-5 text-neutral-800" />
                     </button>
                     <button className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors" title="Add to Wishlist">
-                      <Heart className="w-5 h-5 text-neutral-800" />
+                      <FaHeart className="w-5 h-5 text-neutral-800" />
                     </button>
                   </div>
                 </div>
@@ -112,10 +117,10 @@ function HomeClient() {
                   </button>
                   <div className="flex gap-4">
                     <button className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors" title="View Details">
-                      <Eye className="w-5 h-5 text-neutral-800" />
+                      <FaEye className="w-5 h-5 text-neutral-800" />
                     </button>
                     <button className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors" title="Add to Wishlist">
-                      <Heart className="w-5 h-5 text-neutral-800" />
+                      <FaHeart className="w-5 h-5 text-neutral-800" />
                     </button>
                   </div>
                 </div>
@@ -142,10 +147,10 @@ function HomeClient() {
                   </button>
                   <div className="flex gap-4">
                     <button className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors" title="View Details">
-                      <Eye className="w-5 h-5 text-neutral-800" />
+                      <FaEye className="w-5 h-5 text-neutral-800" />
                     </button>
                     <button className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors" title="Add to Wishlist">
-                      <Heart className="w-5 h-5 text-neutral-800" />
+                      <FaHeart className="w-5 h-5 text-neutral-800" />
                     </button>
                   </div>
                 </div>
@@ -176,10 +181,10 @@ function HomeClient() {
                   </button>
                   <div className="flex gap-4">
                     <button className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors" title="View Details">
-                      <Eye className="w-5 h-5 text-neutral-800" />
+                      <FaEye className="w-5 h-5 text-neutral-800" />
                     </button>
                     <button className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors" title="Add to Wishlist">
-                      <Heart className="w-5 h-5 text-neutral-800" />
+                      <FaHeart className="w-5 h-5 text-neutral-800" />
                     </button>
                   </div>
                 </div>
@@ -210,10 +215,10 @@ function HomeClient() {
                   </button>
                   <div className="flex gap-4">
                     <button className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors" title="View Details">
-                      <Eye className="w-5 h-5 text-neutral-800" />
+                      <FaEye className="w-5 h-5 text-neutral-800" />
                     </button>
                     <button className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors" title="Add to Wishlist">
-                      <Heart className="w-5 h-5 text-neutral-800" />
+                      <FaHeart className="w-5 h-5 text-neutral-800" />
                     </button>
                   </div>
                 </div>
@@ -240,10 +245,10 @@ function HomeClient() {
                   </button>
                   <div className="flex gap-4">
                     <button className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors" title="View Details">
-                      <Eye className="w-5 h-5 text-neutral-800" />
+                      <FaEye className="w-5 h-5 text-neutral-800" />
                     </button>
                     <button className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors" title="Add to Wishlist">
-                      <Heart className="w-5 h-5 text-neutral-800" />
+                      <FaHeart className="w-5 h-5 text-neutral-800" />
                     </button>
                   </div>
                 </div>
@@ -273,10 +278,10 @@ function HomeClient() {
                   </button>
                   <div className="flex gap-4">
                     <button className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors" title="View Details">
-                      <Eye className="w-5 h-5 text-neutral-800" />
+                      <FaEye className="w-5 h-5 text-neutral-800" />
                     </button>
                     <button className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors" title="Add to Wishlist">
-                      <Heart className="w-5 h-5 text-neutral-800" />
+                      <FaHeart className="w-5 h-5 text-neutral-800" />
                     </button>
                   </div>
                 </div>
@@ -307,10 +312,10 @@ function HomeClient() {
                   </button>
                   <div className="flex gap-4">
                     <button className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors" title="View Details">
-                      <Eye className="w-5 h-5 text-neutral-800" />
+                      <FaEye className="w-5 h-5 text-neutral-800" />
                     </button>
                     <button className="bg-white/90 p-2 rounded-full hover:bg-white transition-colors" title="Add to Wishlist">
-                      <Heart className="w-5 h-5 text-neutral-800" />
+                      <FaHeart className="w-5 h-5 text-neutral-800" />
                     </button>
                   </div>
                 </div>
