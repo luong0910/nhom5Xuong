@@ -1,4 +1,8 @@
+
+import { Eye, Heart } from 'lucide-react';
+
 import { FaEye, FaHeart } from "react-icons/fa";
+
 
 function HomeClient() {
   return (
