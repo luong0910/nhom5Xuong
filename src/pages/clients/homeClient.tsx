@@ -1,5 +1,4 @@
 import { Eye, Heart } from 'lucide-react';
-
 function HomeClient() {
   return (
     <div className="min-h-screen bg-neutral-50">
