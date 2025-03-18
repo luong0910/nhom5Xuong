@@ -12,7 +12,7 @@ function BannerPage() {
 
                 <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-center">
                 <h1 className="text-4xl font-semibold mb-2 text-yellow-500">&#9650;</h1>
-                <h1 className="text-4xl font-semibold mb-2">???</h1>
+                <h1 className="text-4xl font-semibold mb-2">CCCCCCCCCCCCC Cskcaki</h1>
                 <p>
                     <span className="font-semibold">Home</span> 
                     <span className="mx-2"> &gt; </span> 
