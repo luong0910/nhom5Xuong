@@ -1541,7 +1541,31 @@
       "price": 1232132132131231,
       "description": "312321312312",
       "id": 157
+    },
+    {
+      "id": 158,
+      "name": "Lương",
+      "price": 123,
+      "quantity": 1,
+      "category": "1",
+      "description": "đẹp trai, to",
+      "status": true,
+      "type": "simple",
+      "parent": 0
     }
   ],
-  "users": []
+  "users": [
+    {
+      "email": "luongpvph53397@gmail.com",
+      "password": "$2a$10$9Vnbg6/8zJqG7Wjpzf6oHuKNmKEUEcqkgAXgXONZheceRZCSz5QSS",
+      "confirm": "luong123",
+      "id": 1
+    },
+    {
+      "email": "luong@gmail.com",
+      "password": "$2a$10$7PQmbN06A5De2vUoMJUE9u377iugj.BeAx.08yR62ssulgKYWO36W",
+      "confirm": "123456",
+      "id": 2
+    }
+  ]
 }

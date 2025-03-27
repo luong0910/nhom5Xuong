@@ -20,7 +20,7 @@ function HeaderClient() {
           <Link to={"/"}>
             <li className="hover:text-gray-600 cursor-pointer">Home</li>
           </Link>
-          <Link to={"#"}>
+          <Link to={"shop"}>
             <li className="hover:text-gray-600 cursor-pointer">Shop</li>
           </Link>
           <Link to={"#"}>
