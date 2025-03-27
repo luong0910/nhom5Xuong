@@ -1,12 +1,34 @@
-
-import { Eye, Heart } from 'lucide-react';
-
+import { useNavigate } from 'react-router-dom';
 import { FaEye, FaHeart } from "react-icons/fa";
 
-
 function HomeClient() {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen bg-neutral-50">
+      {/* Banner Section */}
+      <div className="relative w-full h-[400px] bg-neutral-200 overflow-hidden">
+        <img
+          src="./src/assets/bannerhome.png"
+          alt="Banner"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center bg-black/30">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            Discover Your Perfect Home Style
+          </h1>
+          <p className="text-lg md:text-xl text-white mb-6 max-w-xl">
+            Explore our exclusive collection of furniture and decor.
+          </p>
+          <button
+            className="bg-amber-600 text-white px-8 py-3 rounded-md hover:bg-amber-700 transition-colors"
+            onClick={() => navigate('/shop')}
+          >
+            Shop Now
+          </button>
+        </div>
+      </div>
+
       {/* Hero Section */}
       <div className="container mx-auto px-4 py-12 md:py-20">
         <h1 className="text-3xl md:text-5xl font-light text-center text-neutral-800 mb-3">
