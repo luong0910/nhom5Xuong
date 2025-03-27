@@ -21,7 +21,7 @@ export const SigninPage = () => {
     const onFinish = (formData: any) => {
         mutate(formData, {
             onSuccess: (data) => {
-                navigate("/dashboard");
+                navigate("/");
                 messageApi.success("Đăng nhập thành công");
                 setToken(data?.data?.accessToken);
             },

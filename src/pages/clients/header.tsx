@@ -32,7 +32,7 @@ function HeaderClient() {
         </ul>
 
         <div className="flex space-x-6 text-xl">
-          <Link to={"#"}>
+          <Link to={"/signin"}>
             <FaUser className="cursor-pointer hover:text-gray-600" />
           </Link>
           <Link to={"#"}>
