@@ -31,7 +31,8 @@ function App() {
                 <Route path="shop" element={<ShopPage />} />
                 <Route path="checkout" element={<CheckoutPage />} />
                 <Route path="contact" element={<ContactPage />} />
-                <Route path="detail" element={<SingleProductPage />} />
+                {/* Sửa route từ /detail thành /detail/:id */}
+                <Route path="detail/:id" element={<SingleProductPage />} />
                 <Route path="about" element={<h1>Giới thiệu</h1>} />
                 <Route path="signin" element={<SigninPage />} />
                 <Route path="signup" element={<SignupPage />} />
