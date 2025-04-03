@@ -38,6 +38,11 @@ const LayoutAdmin = ({ children }: LayoutAdminProps) => {
                             icon: <VideoCameraOutlined />,
                             label: <Link to="/admin/products">Products</Link>,
                         },
+                        {
+                            key: "3",
+                            icon: <VideoCameraOutlined />,
+                            label: <Link to="/admin/categories">Categories</Link>,
+                        }
                     ]}
                 />
             </Sider>

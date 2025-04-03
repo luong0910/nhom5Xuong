@@ -19,6 +19,7 @@ import ProductEdit from "./pages/admin/updateProduct";
 // Auth Pages
 import SigninPage from "./pages/auth/signin";
 import SignupPage from "./pages/auth/signup";
+// import CategoryAdd from "./pages/admin/category/addCategory";
 
 function App() {
     return (
@@ -47,6 +48,11 @@ function App() {
                     <Route index element={<ProductListPage />} />
                     <Route path="add" element={<ProductForm />} />
                     <Route path="edit/:id" element={<ProductEdit />} />
+                </Route>
+                <Route path="categories">
+                    {/* <Route index element={<ProductListPage />} /> */}
+                    {/* <Route path="add" element={<CategoryAdd />} />
+                    <Route path="edit/:id" element={<ProductEdit />} /> */}
                 </Route>
                 <Route path="signin" element={<SigninPage />} />
                 <Route path="signup" element={<SignupPage />} />
